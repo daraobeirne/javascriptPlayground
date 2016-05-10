@@ -1,6 +1,13 @@
-body { 
+html, body { 
 	margin:0; 
-	padding:0; 
+	padding:0;
+	height:100%;
+	width:100%; 
+}
+
+.water{
+	height: 100%;
+	width: 100%;
 }
 
 .orange{
@@ -11,6 +18,3 @@ body {
 	background-color: #0000FF
 }
 
-#id {
-
-}

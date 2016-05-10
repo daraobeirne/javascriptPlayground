@@ -1,9 +1,9 @@
 
-$( 'body' ).click(function(){
+$( ".water" ).click(function(){
 	$( this ).toggleClass("blue");
 });
 
-$( ‘body’ ).on(‘click’, function(e){
+$( ".water").on('click', function(e){
 	console.log(e)
-	$(this).append(‘<div>I like tootles</div>’)
+	$(this).append('<div>I like tootles</div>')
 });
